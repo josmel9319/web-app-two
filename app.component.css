@@ -1,0 +1,49 @@
+.box {
+
+  width: 500px;
+  border: 1px solid black;
+  padding-bottom: 15px;
+
+}
+
+body {
+  font-family: Arial;
+  margin-left: 10px;
+  line-height: 1.7em
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.top {
+  padding: 10px;
+  background: #f1f1f1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.content {
+  padding: 10px;
+}
+.button {
+  background-color: #4CAF50;
+  margin-right: 50px;
+  width: 65px;
+  height: 30px;
+}
+.row p, .row input {
+  display: inline;
+}
+.lastrow p,.lastrow input, .lastrow button {
+  display: inline;
+}
